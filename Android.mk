@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gtaxllte)
+ifeq ($(TARGET_DEVICE),gtanotexllte)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
