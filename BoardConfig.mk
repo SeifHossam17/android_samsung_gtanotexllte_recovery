@@ -111,3 +111,15 @@ TW_NO_EXFAT_FUSE := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_USE_TOOLBOX := true
+
+# SHRP Flags
+SHRP_PATH := device/samsung/gtanotexllte
+SHRP_MAINTAINER := SeifHecker2099
+SHRP_DEVICE_CODE := gtanotexllte
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
