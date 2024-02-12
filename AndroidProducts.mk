@@ -7,3 +7,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_gtanotexllte.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_gtanotexllte-eng
